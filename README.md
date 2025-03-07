@@ -93,11 +93,6 @@ El análisis se lleva a cabo en varias etapas, comenzando con la Exploración de
    - Usar un nivel de significancia estándar (e.g., 0.05).
    - Ajustar si se realizan múltiples pruebas (Bonferroni si es necesario).
 
----
-
-
----
-
 ## Herramientas Usadas
 - **Python**:
   - Manipulación y análisis: `Pandas`
@@ -105,3 +100,23 @@ El análisis se lleva a cabo en varias etapas, comenzando con la Exploración de
   - Pruebas estadísticas: `Scipy.stats`
 - **Entorno**:
   - Jupyter Notebook.
+
+## Conclusiones
+que la variante aplicada en el grupo A es más efectiva para lograr conversiones.
+
+Estos resultados son prometedores y sugieren que la variante del grupo A podría ser la mejor opción para implementar.
+
+Conclusión
+Usuarios Duplicados: Identificamos que había 441 usuarios presentes en ambos grupos de la prueba A/B. Esto podría afectar la independencia de las muestras, por lo que se corrigió excluyendo estos usuarios de ambos grupos.
+
+Picos de Actividad: Se observó un pico significativo de actividad en torno al 22 de diciembre, lo cual se atribuyó a eventos de marketing o promociones. Para mitigar este impacto, se aseguró que estas influencias estuvieran distribuidas equitativamente entre los grupos, o se ajustó el período de la prueba.
+
+Número de Eventos por Día: Se analizó cómo se distribuían los eventos entre los días, identificando patrones y picos de actividad. Esto ayudó a entender mejor el comportamiento de los usuarios y ajustar el análisis para considerar estos factores.
+
+Número de Eventos por Usuario: Se verificó que la distribución del número de eventos por usuario fuera consistente entre los grupos, asegurando que no hubiera sesgos significativos.
+
+Limpieza y Filtrado: Se realizó una limpieza exhaustiva de los datos, eliminando duplicados y asegurando que los datos fueran precisos y confiables.
+
+Homogeneidad de las Muestras: Se verificó que las muestras de los grupos A y B fueran homogéneas en términos de características clave como región y dispositivo, garantizando una comparación justa.
+
+La etapa de EDA permitió identificar y corregir peculiaridades en los datos, asegurando la calidad y precisión del análisis. Los resultados de la prueba A/B mostraron que el grupo A tuvo una tasa de conversión y un compromiso del usuario superiores en comparación con el grupo B. La prueba Z confirmó que estas diferencias eran estadísticamente significativas, lo cual sugiere que la variante del grupo A es más efectiva y podría considerarse para implementación.
