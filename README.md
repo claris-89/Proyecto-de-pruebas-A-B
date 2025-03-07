@@ -95,22 +95,10 @@ El análisis se lleva a cabo en varias etapas, comenzando con la Exploración de
 
 ---
 
-## Conclusiones
-
-### 5. Resumen de Resultados
-1. Describir:
-   - Comportamiento de los usuarios en el embudo.
-   - Diferencias observadas entre los grupos A y B.
-2. Evaluar:
-   - Si el nuevo sistema de recomendaciones logró el resultado esperado (10% de mejora en cada etapa).
-
-### 6. Recomendaciones
-- Decidir si implementar el nuevo sistema basado en los resultados.
-- Sugerir mejoras adicionales para futuros experimentos o análisis.
 
 ---
 
-## Herramientas Recomendadas
+## Herramientas Usadas
 - **Python**:
   - Manipulación y análisis: `Pandas`
   - Visualización: `Matplotlib`, `Seaborn`
