@@ -1,5 +1,10 @@
 # Proyecto-de-pruebas-A-B
 
+## Introducción
+En el entorno competitivo de las tiendas en línea, la toma de decisiones basada en datos es esencial para mejorar la experiencia del usuario y aumentar las conversiones. Este proyecto se centra en un análisis exhaustivo de datos recopilados de una tienda en línea durante un período específico, con el objetivo de evaluar la efectividad de diferentes estrategias de marketing mediante una prueba A/B.
+
+El análisis se lleva a cabo en varias etapas, comenzando con la Exploración de Datos (EDA), que incluye la limpieza y preparación de los datos, identificación de patrones y tendencias, y la corrección de cualquier peculiaridad que pueda afectar la validez del análisis. Posteriormente, se realiza una prueba A/B para comparar dos variantes de estrategias de marketing implementadas en grupos de usuarios distintos.
+
 ### Descripción de la Prueba
 - **Nombre de la prueba**: recommender_system_test
 - **Grupos**:
